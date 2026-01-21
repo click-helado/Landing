@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/Landing/static/css/main.64630a72.css",
     "main.js": "/Landing/static/js/main.36fd8cf0.js",
     "index.html": "/Landing/index.html",
+    "main.64630a72.css.map": "/Landing/static/css/main.64630a72.css.map",
     "main.36fd8cf0.js.map": "/Landing/static/js/main.36fd8cf0.js.map"
   },
   "entrypoints": [
+    "static/css/main.64630a72.css",
     "static/js/main.36fd8cf0.js"
   ]
 }

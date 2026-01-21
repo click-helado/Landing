@@ -26,7 +26,7 @@
     "eqeqeq": ["error", "always"],
     "curly": ["error", "all"],
     "brace-style": ["error", "1tbs"],
-    "comma-dangle": ["error", "es5"],
+    "comma-dangle": ["off"],
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "never"],
     "arrow-spacing": "error",

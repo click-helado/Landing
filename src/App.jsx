@@ -1,3 +1,4 @@
+import React from 'react';
 function App() {
   const [sabores, setSabores] = React.useState([
     { id: 1, nombre: 'Chocolate', descripcion: 'Intenso chocolate belga', precio: '$800' },
@@ -74,7 +75,7 @@ function App() {
         <div className="bg-white rounded-lg shadow-xl p-8 mb-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">¡Pedí tu helado favorito!</h2>
           <p className="text-lg text-gray-600 mb-6">Hacé tu pedido por WhatsApp y te lo llevamos</p>
-          <a 
+          <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -281,7 +282,7 @@ function App() {
         <div className="bg-gradient-to-r from-green-400 to-green-600 rounded-lg shadow-xl p-8 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">¿Listo para disfrutar?</h2>
           <p className="text-xl mb-6">Hacé click en el botón y pedí por WhatsApp</p>
-          <a 
+          <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -332,3 +333,4 @@ function App() {
     </div>
   );
 }
+export default App;
